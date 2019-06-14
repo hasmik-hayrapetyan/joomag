@@ -114,7 +114,7 @@ article#wrapper {
 
 .transform_block {
   min-height: 666px;
-  background-image: url(../../assets/image-we-work.jpg);
+  background-image: url(../assets/image-we-work.jpg);
   position: relative;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -281,10 +281,18 @@ article#wrapper {
     color: #fff;
   }
 }
-.input-group.block-form input{
-  height: 48px;
-  padding-left: 26px;
+.input-group.block-form {
+  input {
+    height: 48px;
+    padding-left: 26px;
+    padding-right: 26px;
+    border-color: #fff !important;
+  }
+  button{
+    border: 1px solid #296cfc;
+  }
 }
+
 .input-group.block-form input::placeholder {
   color: #cacaca;
 }
@@ -332,9 +340,12 @@ article#wrapper {
       text-align: center;
     }
   }
+  .f_w_400_767 {
+    font-weight: 400;
+  }
   .f_s {
     &_30_767 {
-      font-size: 30px;
+      font-size: 29px;
     }
     &_35_767 {
       font-size: 35px;
